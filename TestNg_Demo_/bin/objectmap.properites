@@ -1,0 +1,12 @@
+login.uesrname=id>userName
+login.password=id>password
+login.click=xpath>//*[@id=\"root\"]/div/div[2]/div[2]/div/form/div[3]/div/div/div/button/span
+form.page0=xpath>//*[@id=\"root\"]/div/section/aside/div/ul/li[2]/div/span/span[2]
+from.page1=xpath>//*[@id="/form$Menu"]/li[2]/a/span[2]
+payacount.item=xpath>//*[@id="root"]/div/section/section/div/main/div/div/div/div[2]/div/div/form/div[1]/div[2]/div/div/div/div/span[2]
+repayacount.item=xpath>//*[@id="receiverAccount"]
+payname.item=xpath>//*[@id="receiverName"]
+transfer.item=xpath>//*[@id="amount"]
+nstep.item=xpath>//*[@id="root"]/div/section/section/div/main/div/div/div/div[2]/div/div/form/div[5]/div/div/div/button/span
+confirem.item=xpath>//*[@id="root"]/div/section/section/div/main/div/div/div/div[2]/div/div/form/div[5]/div/div/div/button[1]/span
+verfiy.itme=xpth>//*[@id="root"]/div/section/section/main/div/div[2]/div/div/div/div/div/div[2]/div[2]
