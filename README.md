@@ -2,7 +2,7 @@
 # Environment
 Eclipse+Testng+Selenium+MySQL+POI+Apachelog4J
 # 框架设计模式（pageobject模式框架& 数据驱动混合自动化框架）
-•	Pageobject模式
+•	Pageobject模式（src_AutoFrameWrok_PageObjet）
 1.	页面层（主要封装当前被测页面对象）
 2.	页面元素（objectmap.properties）
 3.	业务逻辑层（封装当前页面的复用业务逻辑操作）
@@ -10,7 +10,7 @@ Eclipse+Testng+Selenium+MySQL+POI+Apachelog4J
 5.	基础配置层（读取外部文件连接数据库等基础操作）
 6.	功能模块构建Case流（脚本层）
 
-•	数据驱动混合自动化框架（高级）
+•	数据驱动混合自动化框架（高级 src_AutoFrameWrok_keyword）
 1.	业务逻辑层（封装当前被测页面事件流）
 2.	页面元素层（封装被测页面元素）
 3.	数据层（外部数据文件 xls.csv等文件）
