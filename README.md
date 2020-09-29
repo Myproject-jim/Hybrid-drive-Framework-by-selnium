@@ -18,11 +18,11 @@
 6.	脚本层
 # TeseCase.文件 (支持读取.csv  .xlsx .xml .xls文件 数据库)  
 1)Testcase （数据格式）
- •	Function
- •	TestcaseID（important）
- •	Test case description
- •	passrate（important）
- •	status（important）
+•	Function
+•	TestcaseID（important）
+•	Test case description
+•	passrate（important）
+•	status（important）
 2)Teststep （数据格式）
  •	TestcaseID（important）
  •	TeststepNo	
