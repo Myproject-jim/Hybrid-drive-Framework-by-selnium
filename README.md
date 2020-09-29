@@ -16,30 +16,37 @@
 4.	基础配置层
 5.	基础业务事件层（封装页面常用操作方法）
 6.	脚本层
-# TeseCase.文件
-1)Testcase
- 1.
+# TeseCase.文件 (支持读取.csv  .xlsx .xml .xls文件)  
+1)Testcase（）
+ 1.Function
+ 2.TestcaseID（important）
+ 3.Test case description
+ 4.passrate（important）
+ 5.status（important）
 2)Teststep
- 
-
+1.TestcaseID（important）
+2.TeststepNo	
+3.Casedetail	
+4.Casestepname	
+5.Casestepvalue	（important）
+6.Casestepelement_KEY	（important）
+7.passrate	
+8.status
+------加注important用例参数必填选项底层对应封装可直接对应读取 element parameter  注意testcaseID在 testcase 和 testsuite 中要相同-------
 # 脚本编写规则
 •	Pageobject模式
 1.	在页面元素层编写被测页面定位元素（定位元素表达式）
 2.	封装被测页面对象（封装当前功能模块的操作对象）
 3.	根据需求编写业务逻辑（根据测试用例编写casestep）
 4.	根据框架规则编写脚本（参数化脚本）
-
 5.	ant构建执行测脚本
 
 •	数据驱动混合自动化框架（高级）
 1.	根据项目要求编写测试用例在excel中（编写规范根据框架给出规则做）
 2.	在congfiguartion编写被测页面成员方法
 3.	根据java中的映射机制编写自动化脚本
-
-
-
-
-# 框架的两种模式对比
+---具体详见自动化框架----
+# 框架的优势
 1.	高效稳定
 2.	脚本维护简单
 3. 框架可维护性高
