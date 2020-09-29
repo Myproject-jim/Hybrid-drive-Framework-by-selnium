@@ -18,20 +18,20 @@
 6.	脚本层
 # TeseCase.文件 (支持读取.csv  .xlsx .xml .xls文件 数据库)  
 1)Testcase （数据格式）
-•	Function
-•	TestcaseID（important）
-•	Test case description
-•	passrate（important）
-•	status（important）
+ •	Function
+ •	TestcaseID（important）
+ •	Test case description
+ •	passrate（important）
+ •	status（important）
 2)Teststep （数据格式）
-•	TestcaseID（important）
-•	TeststepNo	
-•	Casedetail	
-•	Casestepname	
-•	5.Casestepvalue	（important）
-•	6.Casestepelement_KEY	（important）
-•	passrate	
-•	status
+ •	TestcaseID（important）
+ •	TeststepNo	
+ •	Casedetail	
+ •	Casestepname	
+ •	Casestepvalue	（important）
+ •	Casestepelement_KEY	（important）
+ •	passrate	
+ •	status
 
 ------加注important用例参数必填选项底层对应封装可直接对应读取 element parameter  注意testcaseID在 testcase 和 testsuite 中要相同-------
 # 脚本编写规则
