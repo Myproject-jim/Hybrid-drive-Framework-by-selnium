@@ -17,21 +17,22 @@
 5.	基础业务事件层（封装页面常用操作方法）
 6.	脚本层
 # TeseCase.文件 (支持读取.csv  .xlsx .xml .xls文件 数据库)  
-1)Testcase （数据格式）
+• Testcase （数据格式）
 1.	Function
 2.	TestcaseID（important）
 3.	Test case description
 4.	passrate（important）
 5.	status（important）
-2)Teststep （数据格式）
- •	TestcaseID（important）
- •	TeststepNo	
- •	Casedetail	
- •	Casestepname	
- •	Casestepvalue	（important）
- •	Casestepelement_KEY	（important）
- •	passrate	
- •	status
+• Teststep （数据格式）
+1.	TestcaseID（important）
+2.	TeststepNo	
+3.	Casedetail	
+4.	Casestepname	
+5.	Casestepvalue	（important）
+6.	Casestepelement_KEY	（important）
+7.	passrate	
+8.	status
+
 
 ------加注important用例参数必填选项底层对应封装可直接对应读取 element parameter  注意testcaseID在 testcase 和 testsuite 中要相同-------
 # 脚本编写规则
