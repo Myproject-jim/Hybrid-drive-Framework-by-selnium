@@ -18,17 +18,11 @@
 6.	脚本层
 # TeseCase.文件 (支持读取.csv  .xlsx .xml .xls文件 数据库)  
 1)Testcase （数据格式）
-1.	业务逻辑层（封装当前被测页面事件流）
-2.	页面元素层（封装被测页面元素）
-3.	数据层（外部数据文件 xls.csv等文件）
-4.	基础配置层
-5.	基础业务事件层（封装页面常用操作方法）
-6.	脚本层
-•	Function
-•	TestcaseID（important）
-•	Test case description
-•	passrate（important）
-•	status（important）
+1.	Function
+2.	TestcaseID（important）
+3.	Test case description
+4.	passrate（important）
+5.	status（important）
 2)Teststep （数据格式）
  •	TestcaseID（important）
  •	TeststepNo	
