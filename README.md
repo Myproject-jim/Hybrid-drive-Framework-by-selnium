@@ -23,7 +23,7 @@
 3.	Test case description
 4.	passrate（important）
 5.	status（important）
-• Teststep （数据格式）
+• Testsuite （数据格式）
 1.	TestcaseID（important）
 2.	TeststepNo	
 3.	Casedetail	
