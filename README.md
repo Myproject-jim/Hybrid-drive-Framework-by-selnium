@@ -17,7 +17,7 @@ Eclipse+Testng+Selenium+MySQL+POI+Apachelog4J
 4.	基础配置层
 5.	基础业务事件层（封装页面常用操作方法）
 6.	脚本层
-# TeseCase.文件 (支持读取.csv  .xlsx .xml .xls文件 数据库)  
+# TeseCase.文件 (支持读取.csv  .xlsx .xml .xls文件、 MYSQL)  
 • Testcase （数据格式）
 1.	Function
 2.	TestcaseID（important）
