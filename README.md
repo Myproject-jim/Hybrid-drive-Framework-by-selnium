@@ -34,6 +34,7 @@
 6.	Casestepelement_KEY	（important）
 7.	Passrate	
 8.	Status
+
 ------加注important用例参数必填选项底层对应封装可直接对应读取 element parameter  注意testcaseID在 testcase 和 testsuite 中要相同-------
 # 脚本编写规则
 •	Pageobject模式
