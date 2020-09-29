@@ -16,22 +16,23 @@
 4.	基础配置层
 5.	基础业务事件层（封装页面常用操作方法）
 6.	脚本层
-# TeseCase.文件 (支持读取.csv  .xlsx .xml .xls文件)  
-1)Testcase（）
- 1.Function
- 2.TestcaseID（important）
- 3.Test case description
- 4.passrate（important）
- 5.status（important）
-2)Teststep
-1.TestcaseID（important）
-2.TeststepNo	
-3.Casedetail	
-4.Casestepname	
-5.Casestepvalue	（important）
-6.Casestepelement_KEY	（important）
-7.passrate	
-8.status
+# TeseCase.文件 (支持读取.csv  .xlsx .xml .xls文件 数据库)  
+1)Testcase （数据格式）
+•	Function
+•	TestcaseID（important）
+•	Test case description
+•	passrate（important）
+•	status（important）
+2)Teststep （数据格式）
+•	TestcaseID（important）
+•	TeststepNo	
+•	Casedetail	
+•	Casestepname	
+•	5.Casestepvalue	（important）
+•	6.Casestepelement_KEY	（important）
+•	passrate	
+•	status
+
 ------加注important用例参数必填选项底层对应封装可直接对应读取 element parameter  注意testcaseID在 testcase 和 testsuite 中要相同-------
 # 脚本编写规则
 •	Pageobject模式
@@ -51,7 +52,11 @@
 2.	脚本维护简单
 3. 框架可维护性高
 4. 可以应用本框架思想编写接口自动化框架
-
+# 框架的劣势
+1.数据库读取
+2.不能多线程进行自动化
+3.通过ant构建测试
+4.--------.
 # 后续待优化
 •	Ant+jekins+Testng—集成自动化
 •	测试报告
