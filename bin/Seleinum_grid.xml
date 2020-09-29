@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suite1" parallel="methods" thread-count="3">
+<test name="test1'>
+<classes>
+<class name="com.coo.object"></class>
+</classes>
+
+
+</test>
+</suite>
