@@ -1,8 +1,17 @@
-# Hybrid-drive-Framework-by-selnium
-# Environment
-Eclipse+Testng+Selenium+MySQL+POI+Apachelog4J
+# 框架简单介绍&Environment:
+1.Java + Selenium + Maven + TestNG + JDBC + Xml+ Git + +Ant + Jenkins 
+1.	使用Java作为项目编程语言
+2.	使用Selenium作为Web项目底层服务驱动框架
+3.	使用TestNG作为项目运行框架，方便执行测试用例，生成测试报告
+4.	使用JDBC作为数据库管理工具，方便连接数据库，执行SQL
+6. 使用poi作为用例数据管理工具封装基础读写功能
+7.	使用Xml作为案例管理工具，方便编写测试用例，维护测试脚本
+8.	使用Git作为仓库管理工具，方便管理项目代码7
+9.	使用Ant作为Java的build打包工具，方便项目代码打包
+10.	使用Jenkins作为自动化持续集成平台，方便自动编译，自动打包，自动运行测试脚本，邮件发送测试报告（待完成）
+ 
 # 框架设计模式（pageobject模式框架& 数据驱动混合自动化框架）
-•	Pageobject模式（src_AutoFrameWrok_PageObjet）
+•	Pageobject模式
 1.	页面层（主要封装当前被测页面对象）
 2.	页面元素（objectmap.properties）
 3.	业务逻辑层（封装当前页面的复用业务逻辑操作）
@@ -10,14 +19,14 @@ Eclipse+Testng+Selenium+MySQL+POI+Apachelog4J
 5.	基础配置层（读取外部文件连接数据库等基础操作）
 6.	功能模块构建Case流（脚本层）
 
-•	数据驱动混合自动化框架（高级 src_AutoFrameWrok_keyword）
+•	数据驱动混合自动化框架（高级）
 1.	业务逻辑层（封装当前被测页面事件流）
 2.	页面元素层（封装被测页面元素）
 3.	数据层（外部数据文件 xls.csv等文件）
 4.	基础配置层
 5.	基础业务事件层（封装页面常用操作方法）
 6.	脚本层
-# TeseCase.文件 (支持读取.csv  .xlsx .xml .xls文件、 MYSQL)  
+# TeseCase.文件 (支持读取.csv  .xlsx .xml .xls文件 数据库)  
 • Testcase （数据格式）
 1.	Function
 2.	TestcaseID（important）
